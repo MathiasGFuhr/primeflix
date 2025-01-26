@@ -34,7 +34,7 @@ PrimeFlix é uma aplicação de catálogo de filmes que permite aos usuários ex
 ![Página Inicial](./assets/paginaHome.png)
 
 #### Página de Detalhes
-![Detalhes do Filme](./assets/detalhesDoFilme.png.png)
+![Detalhes do Filme](./assets/detalhesDoFilme.png)
 
 #### Página de Favoritos
 ![Favoritos](./assets/favoritos.png)
