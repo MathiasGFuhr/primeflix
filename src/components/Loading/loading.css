@@ -1,0 +1,65 @@
+/* Loading.css */
+
+.loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #141414; 
+  }
+  
+  .spinner {
+    position: relative;
+    width: 80px;
+    height: 80px;
+  }
+  
+  .spinner div {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background-color: #e50914; 
+    border-radius: 50%;
+    animation: spinner 1.2s linear infinite;
+  }
+  
+  .spinner div:nth-child(1) {
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    animation-delay: -0.45s;
+  }
+  
+  .spinner div:nth-child(2) {
+    top: 50%;
+    left: 100%;
+    transform: translate(-100%, -50%);
+    animation-delay: -0.3s;
+  }
+  
+  .spinner div:nth-child(3) {
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    animation-delay: -0.15s;
+  }
+  
+  .spinner div:nth-child(4) {
+    top: 50%;
+    left: 0;
+    transform: translate(0, -50%);
+    animation-delay: 0s;
+  }
+  
+  @keyframes spinner {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.5);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  

@@ -1,0 +1,37 @@
+/* Toast.css */
+
+.Toastify__toast-container {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Toast de Sucesso */
+  .toast-success {
+    background-color: #141414; /* Fundo escuro estilo Netflix */
+    color: #ffffff;
+    border: 1px solid #e50914;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Toast de Aviso */
+  .toast-warning {
+    background-color: #1f1f1f; /* Fundo escuro mais claro */
+    color: #f39c12; /* Amarelo de aviso */
+    border: 1px solid #f39c12;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Corpo do Toast */
+  .toast-body {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  /* Barra de Progresso */
+  .toast-progress {
+    background-color: #e50914; /* Barra vermelha estilo Netflix */
+    height: 4px;
+  }
+  
